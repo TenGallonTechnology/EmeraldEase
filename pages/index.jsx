@@ -111,7 +111,7 @@ export default function Home() {
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3363.5341875752633!2d-82.90960588482402!3d32.53858578104461!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f12182c794d1c3%3A0xb9e39778f5cf7a28!2sEmerald%20Ease!5e0!3m2!1sen!2sus!4v1634331159520!5m2!1sen!2sus"
                   style={{ border: "0" }}
                   className="responsive-iframe"
-                  allowfullscreen=""
+                  allowFullScreen=""
                   loading="lazy"
                 ></iframe>
               </div>
