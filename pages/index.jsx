@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Image from "next/image";
-import Link from "next/link";
 
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
