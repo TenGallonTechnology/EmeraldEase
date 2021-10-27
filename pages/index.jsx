@@ -81,7 +81,7 @@ export default function Home() {
           </div>
 
           <Row>
-            <Col xs={12} md={6}>
+            <Col xs={12} md={6} className="outline-light-top">
               <h3 className="text-center">
                 Our Location <Building />
               </h3>
@@ -102,7 +102,7 @@ export default function Home() {
                 className="rounded"
               />
             </Col>
-            <Col xs={12} md={6}>
+            <Col xs={12} md={6} className="outline-light-top">
               <h3 className="text-center">
                 Directions <Geo />
               </h3>
