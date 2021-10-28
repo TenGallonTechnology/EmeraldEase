@@ -50,7 +50,7 @@ const Services = (props) => {
             <Card.Body>
               <Card.Text>
                 Pre-natal therapy is specifically tailored for the expectant
-                mother's needs (past the first trimester) as her body goes
+                mother&apos;s needs (past the first trimester) as her body goes
                 through the dramatic changes of pregnancy; enhances the function
                 of muscles and joints, improves circulation and general body
                 tone, and relieves mental and physical fatigue.
