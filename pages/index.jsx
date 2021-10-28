@@ -32,7 +32,7 @@ export default function Home() {
           <title>Emerald Ease</title>
           <meta
             name="description"
-            content="Andrea Craft, Licensed Massage Practitioner who specializes in relaxing and therapeutic massage modalities including Swedish, maternity, Myofascial Release, sports/orthopedic, hot stone, chair massage and bodywork. Book your appointment today!"
+            content="Andrea Craft, Licensed Massage Practitioner in Dublin, GA, specializes in relaxing and therapeutic massage modalities including Swedish, maternity, Myofascial Release, sports/orthopedic, hot stone, chair massage, and bodywork. Book your appointment today!"
           />
           <link rel="shortcut icon" href="/public/favicon.ico" />
           <link rel="canonical" href="http://emeraldease.com/" />
@@ -79,8 +79,8 @@ export default function Home() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
-                <Nav.Link href="https://www.vagaro.com/emeraldease">
-                  Schedule Appointment
+                <Nav.Link href="https://www.vagaro.com/emeraldease/book-now">
+                  Book Appointment
                 </Nav.Link>
 
                 <Nav.Link href="https://www.google.com/search?q=emerald+ease+dublin#lrd=0x88f12182c794d1c3:0xb9e39778f5cf7a28,1,,,">
@@ -100,7 +100,7 @@ export default function Home() {
                 Book Your Appointment Now!{" "}
                 <a
                   className="btn btn-outline-dark btn-sm"
-                  href="https://www.vagaro.com/emeraldease"
+                  href="https://www.vagaro.com/emeraldease/book-now"
                 >
                   <CalendarCheck /> Schedule
                 </a>
@@ -154,7 +154,7 @@ export default function Home() {
             </Col>
           </Row>
           <Row>
-            <Col sm={3} lg={3}>
+            <Col sm={3} lg={3} className="text-center">
               <Image
                 alt=""
                 src="/AC.jpg"
@@ -203,24 +203,22 @@ export default function Home() {
       <Container className="bg-dark text-light overflow-hidden" fluid="true">
         <footer className="mb-2">
           <Row>
+            <Col className="float-start">
+              <small>©Emerald Ease 2021 </small>
+            </Col>
+            <Col className="text-center">
+              <small>Follow Us!</small>
+              <br />
+              <a href="https://www.facebook.com/Emeraldeasemassage/">
+                <Facebook />
+              </a>
+            </Col>
             <Col>
               <div style={{ width: "50px" }} className="float-end">
                 <a href="https://www.pbits.online">
                   <Image src={pbits} alt="PBITS" />
                 </a>
               </div>
-            </Col>
-          </Row>
-          <Row className="align-items-center">
-            <Col className="text-center">
-              <small>©Emerald Ease 2021 </small>
-            </Col>
-          </Row>
-          <Row className="align-items-center">
-            <Col className="text-center">
-              <a href="https://www.facebook.com/Emeraldeasemassage/">
-                <Facebook />
-              </a>
             </Col>
           </Row>
         </footer>

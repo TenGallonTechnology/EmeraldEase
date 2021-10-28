@@ -55,6 +55,8 @@ body {
 .shadow-right {
   text-shadow: 10px 2px 2px rgba(20, 9, 5, 0.38);
 }
-
+.highlight {
+  color: $info;
+}
 // Import Bootstrap and its default variables
 @import "~bootstrap/scss/bootstrap.scss";

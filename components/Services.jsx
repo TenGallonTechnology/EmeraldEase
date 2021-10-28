@@ -3,7 +3,12 @@ import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import { Fragment } from "react";
 
-import { Tags, PhoneFill, CalendarDateFill } from "react-bootstrap-icons";
+import {
+  Tags,
+  PhoneFill,
+  CalendarDateFill,
+  InfoCircle,
+} from "react-bootstrap-icons";
 
 const Services = (props) => {
   return (
@@ -30,7 +35,7 @@ const Services = (props) => {
               <ul>
                 <li>30 Minute - $50</li>
                 <li>60 Minute - $75</li>
-                <li>90 Minute - $100</li>
+                <li>90 Minute - $110</li>
               </ul>
 
               <a
@@ -101,13 +106,22 @@ const Services = (props) => {
             </Card.Header>
             <Card.Body>
               <Card.Text>
-                With supporting text below as a natural lead-in to additional
-                content.
+                A 15-minute clothes massage focused on the back, shoulders,
+                neck, arms, and head. The client is in a seated position in a
+                specialized, adjustable, padded chair. This massage is intended
+                to relax the muscles, improve flexibility and movement, reduce
+                stress, enhance circulation, and increase overall well-being.
+                <br />
+                <small>
+                  <InfoCircle className="highlight"></InfoCircle> You must call
+                  to book this appointment!
+                </small>
               </Card.Text>
               <ul>
                 <li>15 Minute - $20</li>
                 <li>We will travel to your business - $80 per hour.</li>
               </ul>
+
               <a
                 href="tel:4786970721"
                 className="btn btn-primary btn-sm btn-block"
@@ -125,8 +139,13 @@ const Services = (props) => {
             </Card.Header>
             <Card.Body>
               <Card.Text>
-                With supporting text below as a natural lead-in to additional
-                content.
+                Enjoy a massage with your partner or friend. Two tables and two
+                licensed therapists mean double the relaxation!
+                <br />
+                <small>
+                  <InfoCircle className="highlight"></InfoCircle> You must call
+                  to book this appointment!
+                </small>
               </Card.Text>
               <ul>
                 <li>60 Minute - $160</li>
