@@ -1,3 +1,5 @@
+import { Fragment } from "react";
+
 import Head from "next/head";
 import Image from "next/image";
 
@@ -14,11 +16,13 @@ import {
   Building,
   InfoCircle,
   Facebook,
+  CalendarCheck,
 } from "react-bootstrap-icons";
 
 import fredRoberts from "../public/fredRoberts.jpg";
 import pbits from "../public/pbits.png";
-import { Fragment } from "react";
+
+import Services from "../components/Services";
 
 export default function Home() {
   return (
@@ -30,17 +34,40 @@ export default function Home() {
             name="description"
             content="Andrea Craft, Licensed Massage Practitioner who specializes in relaxing and therapeutic massage modalities including Swedish, maternity, Myofascial Release, sports/orthopedic, hot stone, chair massage and bodywork. Book your appointment today!"
           />
+          <link rel="shortcut icon" href="/public/favicon.ico" />
           <link rel="canonical" href="http://emeraldease.com/" />
           <meta name="robots" content="index, follow" />
           <meta
             name="viewport"
             content="width=device-width,initial-scale=1.0"
           />
+
+          <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="/apple-touch-icon.png"
+          />
+          <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="/favicon-32x32.png"
+          />
+          <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="/favicon-16x16.png"
+          />
+          <link rel="manifest" href="/site.webmanifest" />
+          <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+          <meta name="msapplication-TileColor" content="#da532c" />
+          <meta name="theme-color" content="#ffffff" />
         </Head>
 
         <Navbar bg="light" expand="lg">
           <Container>
-            <Navbar.Brand href="#home">
+            <Navbar.Brand>
               <Image
                 alt=""
                 src="/logo.png"
@@ -53,11 +80,13 @@ export default function Home() {
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
                 <Nav.Link href="https://www.vagaro.com/emeraldease">
-                  Schedule
+                  Schedule Appointment
                 </Nav.Link>
+
                 <Nav.Link href="https://www.google.com/search?q=emerald+ease+dublin#lrd=0x88f12182c794d1c3:0xb9e39778f5cf7a28,1,,,">
                   Reviews
                 </Nav.Link>
+                <Nav.Link href="#services">Services</Nav.Link>
                 <Nav.Link href="#contact">Contact</Nav.Link>
               </Nav>
             </Navbar.Collapse>
@@ -65,15 +94,15 @@ export default function Home() {
         </Navbar>
 
         <main>
-          <div className="card text-white bg-secondary mt-5 mb-5 text-center">
+          <div className="card text-dark bg-secondary mt-5 mb-5 text-center">
             <div className="card-body">
-              <p className="text-dark m-0">
+              <p className="m-0">
                 Book Your Appointment Now!{" "}
                 <a
-                  className="btn btn-sm btn-outline-dark"
+                  className="btn btn-outline-dark btn-sm"
                   href="https://www.vagaro.com/emeraldease"
                 >
-                  Schedule
+                  <CalendarCheck /> Schedule
                 </a>
               </p>
             </div>
@@ -125,7 +154,17 @@ export default function Home() {
             </Col>
           </Row>
           <Row>
-            <Col>
+            <Col sm={3} lg={3}>
+              <Image
+                alt=""
+                src="/AC.jpg"
+                width="225"
+                height="225"
+                layout={"intrinsic"}
+                className="shadow-lg rounded"
+              />
+            </Col>
+            <Col sm={9} lg={9}>
               <p>
                 Emerald Ease is a locally owned business with licensed massage
                 therapists offering relaxing and therapeutic massages and
@@ -135,26 +174,27 @@ export default function Home() {
               </p>
             </Col>
           </Row>
-          <Row id="contact" className="  outline-light-top">
+          <Services />
+          <Row id="contact" className="mb-5 outline-light-top">
             <Col lg={6} sm={12} className="text-center">
               <h3>How to reach us</h3>
             </Col>
-            <Col lg={2} sm={4}>
+            <Col lg={3} sm={4}>
               <a
                 href="mailto:emeraldease@gmail.com"
                 className="btn btn-outline-primary btn-block "
               >
                 <EnvelopeFill />
-                Email
+                emeraldease@gmail.com
               </a>
             </Col>
-            <Col lg={2} sm={4}>
+            <Col lg={3} sm={4}>
               <a
                 href="tel:4786970721"
                 className="btn btn-outline-primary btn-block"
               >
                 <PhoneFill />
-                Call
+                478-697-0721
               </a>
             </Col>
           </Row>

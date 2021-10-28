@@ -51,5 +51,10 @@ body {
   margin-top: 1px;
   width: 100%;
 }
+
+.shadow-right {
+  text-shadow: 10px 2px 2px rgba(20, 9, 5, 0.38);
+}
+
 // Import Bootstrap and its default variables
 @import "~bootstrap/scss/bootstrap.scss";
