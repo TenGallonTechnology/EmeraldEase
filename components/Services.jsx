@@ -1,14 +1,14 @@
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import Card from "react-bootstrap/Card";
-import { Fragment } from "react";
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Card from 'react-bootstrap/Card';
+import { Fragment } from 'react';
 
 import {
   Tags,
   PhoneFill,
   CalendarDateFill,
   InfoCircle,
-} from "react-bootstrap-icons";
+} from 'react-bootstrap-icons';
 
 const Services = (props) => {
   return (
@@ -106,7 +106,7 @@ const Services = (props) => {
             </Card.Header>
             <Card.Body>
               <Card.Text>
-                A 15-minute clothes massage focused on the back, shoulders,
+                A 15-minute clothed massage focused on the back, shoulders,
                 neck, arms, and head. The client is in a seated position in a
                 specialized, adjustable, padded chair. This massage is intended
                 to relax the muscles, improve flexibility and movement, reduce
