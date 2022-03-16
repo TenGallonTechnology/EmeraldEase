@@ -96,6 +96,7 @@ export default function Home() {
         <main>
           <div className="card text-dark bg-secondary mt-5 mb-5 text-center">
             <div className="card-body">
+              <p>Business Hours: Monday-Friday, 8:30 am-5:30 pm</p>
               <p className="m-0">
                 Book Your Appointment Now!{" "}
                 <a
