@@ -10,14 +10,14 @@ $dark: #393f46;
 $pink: #ff79c6;
 
 $theme-colors: (
-  "primary": $primary,
-  "danger": $danger,
-  "secondary": $secondary,
-  "success": $success,
-  "info": $info,
-  "warning": $warning,
-  "light": $light,
-  "dark": $dark,
+  'primary': $primary,
+  'danger': $danger,
+  'secondary': $secondary,
+  'success': $success,
+  'info': $info,
+  'warning': $warning,
+  'light': $light,
+  'dark': $dark
 );
 body {
   background-color: #fefffe;
@@ -58,5 +58,14 @@ body {
 .highlight {
   color: $info;
 }
+
+.team-card-text {
+  @extend .rounded;
+  @extend .bg-light;
+  @extend .bg-opacity-75;
+  @extend .p-0;
+  @extend .text-dark;
+  margin-bottom: 0px;
+}
 // Import Bootstrap and its default variables
-@import "~bootstrap/scss/bootstrap.scss";
+@import '~bootstrap/scss/bootstrap.scss';
