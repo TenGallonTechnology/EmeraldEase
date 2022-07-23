@@ -215,26 +215,30 @@ const Services = (props) => {
         <Col sm={12} md={3} className='my-1'>
           <Card>
             <Card.Header as='h5' className='text-center'>
-              Pregnancy Massage
+              Couples Massage
             </Card.Header>
             <Card.Body>
               <Card.Text>
-                Pre-natal therapy is specifically tailored for the expectant
-                mother&apos;s needs (past the first trimester) as her body goes
-                through the dramatic changes of pregnancy; enhances the function
-                of muscles and joints, improves circulation and general body
-                tone, and relieves mental and physical fatigue.
+                Enjoy an hour massage with your partner, family member, or
+                friend. Great for an anniversary or birthday, or mother/daughter
+                time, or a girl’s day. Two tables and two licensed therapists
+                mean double the relaxation!
+                <br />
+                <small>
+                  <InfoCircle className='highlight'></InfoCircle> You must call
+                  to book this appointment!
+                </small>
               </Card.Text>
               <ul>
-                <li>30 Minute - $55</li>
-                <li>60 Minute - $80</li>
+                <li>60 Minute - $160</li>
               </ul>
 
               <a
+                href='tel:4786970721'
                 className='btn btn-primary btn-sm btn-block'
-                href='https://www.vagaro.com/emeraldease/book-now'
               >
-                Book Now <CalendarDateFill />
+                Call Now to Book <PhoneFill />
+                478-697-0721
               </a>
             </Card.Body>
           </Card>
@@ -390,9 +394,7 @@ const Services = (props) => {
                 stretch the muscles through compression, acupressure, and
                 assisted stretching. The therapist uses their legs, knees, and
                 feet to turn and fold the client to initiate and assist deep
-                stretches. Table Thai is a modified form of traditional Thai
-                bodywork specifically for the massage table. Traditional Thai is
-                performed on a floor mat.
+                stretches. Traditional Thai is performed on a floor mat.
               </Card.Text>
               <ul>
                 <li>60 Minute - $90</li>
