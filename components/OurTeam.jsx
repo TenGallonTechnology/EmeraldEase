@@ -54,7 +54,7 @@ const OurTeam = () => {
             />
             <Carousel.Caption className='team-card-text'>
               <h5>Andrea</h5>
-              <small>
+              <small className='teamCaption'>
                 Andrea Craft, LMT owner of Emerald Ease, became licensed as a
                 therapist in 2021. She was an educator in Laurens County for 14
                 years before becoming a LMT. She offers Swedish, therapeutic,
@@ -73,7 +73,7 @@ const OurTeam = () => {
             />
             <Carousel.Caption className='team-card-text'>
               <h5>Codi</h5>
-              <small>
+              <small className='teamCaption'>
                 Codi Martin, LMT is a former Sheriff&apos;s deputy &amp;
                 certified personal trainer. He offers therapeutic massage,
                 cupping therapy, NRT, Rossiter, couples, and chair massage. His
@@ -93,7 +93,7 @@ const OurTeam = () => {
             />
             <Carousel.Caption className='team-card-text'>
               <h5>Natalie</h5>
-              <small>
+              <small className='teamCaption'>
                 Natalie Newsome, LMT has been a massage therapist for over 14
                 years. She has experience in Swedish, Neuromuscular, and Deep
                 Tissue Massage. She is also a yoga instructor and a potter and
@@ -111,7 +111,7 @@ const OurTeam = () => {
             />
             <Carousel.Caption className='team-card-text'>
               <h5>Megan</h5>
-              <small>
+              <small className='teamCaption'>
                 Megan Shepard, LMT has over 21 years experience as a licensed
                 massage therapist and specializes in relaxing Swedish massage.
                 She also has further training in pre/perinatal massage, heated
@@ -126,7 +126,7 @@ const OurTeam = () => {
             <Image alt='' src={jel} layout={'responsive'} className='rounded' />
             <Carousel.Caption className='team-card-text'>
               <h5>Jel</h5>
-              <small>
+              <small className='teamCaption'>
                 Anjelica Rosario, LMT has been a LMT for almost two years. She
                 has experience working in a chiropractic clinic. She has further
                 training in Neural Reset Therapy and Traditional Thai on the
@@ -145,7 +145,7 @@ const OurTeam = () => {
             />
             <Carousel.Caption className='team-card-text'>
               <h5>Wesley </h5>
-              <small>
+              <small className='teamCaption'>
                 Wesley helps keep Emerald Ease running smoothly with customer
                 service &amp; scheduling. He has been in children&apos;s
                 ministry for over 13 years. He&apos;s currently in nursing

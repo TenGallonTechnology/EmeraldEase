@@ -68,5 +68,13 @@ body {
   @extend .mb-1;
   @extend .mx-0;
 }
+
+.teamCaption {
+  text-align: right;
+  /* media queries */
+  @media (max-width: 374px) {
+    display: none;
+  }
+}
 // Import Bootstrap and its default variables
 @import '~bootstrap/scss/bootstrap.scss';
