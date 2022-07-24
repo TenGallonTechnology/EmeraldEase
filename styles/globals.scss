@@ -63,9 +63,10 @@ body {
   @extend .rounded;
   @extend .bg-light;
   @extend .bg-opacity-75;
-  @extend .p-0;
+  @extend .p-1;
   @extend .text-dark;
-  margin-bottom: 0px;
+  @extend .mb-1;
+  @extend .mx-0;
 }
 // Import Bootstrap and its default variables
 @import '~bootstrap/scss/bootstrap.scss';

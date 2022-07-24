@@ -32,36 +32,35 @@ const OurTeam = () => {
           layout={'responsive'}
           className='rounded'
         />
-        <p>
+        <small>
           Emerald Ease is a locally owned business with licensed massage
           therapists offering relaxing and therapeutic massages and bodywork. We
           offer many modality options such as Swedish, deep tissue, prenatal,
           aromatherapy, warm stones, couples, chair massage, Therapeutic,
           Cupping Therapy, Traditional Thai Bodywork, and Rossiter Stretching.
-        </p>
+        </small>
       </Col>
       <Col xs={12} md={4}>
         <h3 className='font-weight-light text-center'>
           Our Team <PersonHeart />
         </h3>
-        <Carousel className='m-2' slide>
+        <Carousel className='m-1' slide>
           <Carousel.Item>
             <Image
               alt=''
               src={andrea}
               layout={'responsive'}
               className='rounded'
-            />{' '}
+            />
             <Carousel.Caption className='team-card-text'>
-              <h4>Andrea</h4>
-              <p>
-                Andrea is the owner of Emerald Ease. She graduated from Augusta
-                School of Massage in January of 2021. Before becoming an LMT she
-                was an educator in Laurens County for 14 years. She offers
-                Swedish, therapeutic, pre-natal, hot stones, couples, and chair
-                massages. She enjoys helping people ease their stress and pain.
-                Andrea enjoys spending time with her husband and three girls.
-              </p>
+              <h5>Andrea</h5>
+              <small>
+                Andrea Craft, LMT owner of Emerald Ease, became licensed as a
+                therapist in 2021. She was an educator in Laurens County for 14
+                years before becoming a LMT. She offers Swedish, therapeutic,
+                prenatal, warm stones, couples, cupping therapy, and chair
+                massages.
+              </small>
             </Carousel.Caption>
           </Carousel.Item>
 
@@ -71,18 +70,17 @@ const OurTeam = () => {
               src={codi}
               layout={'responsive'}
               className='rounded'
-            />{' '}
+            />
             <Carousel.Caption className='team-card-text'>
-              <h4>Codi</h4>
-              <p>
-                Codi is a certified personal trainer and is currently pursuing
-                an online degree in Kinesiology. As a licensed massage therapist
-                he currently offers therapeutic massage, couples massage, &amp;
-                chair massage. His long-term goal is to help clients with pain
-                management, postural deviations, athletic performance &amp;
-                recovery, mobility &amp; functionality, and overall health &amp;
-                wellbeing.
-              </p>
+              <h5>Codi</h5>
+              <small>
+                Codi Martin, LMT is a former Sheriff&apos;s deputy &amp;
+                certified personal trainer. He offers therapeutic massage,
+                cupping therapy, NRT, Rossiter, couples, and chair massage. His
+                long-term goal is to help clients with pain management, postural
+                deviations, athletic performance &amp; recovery, mobility &amp;
+                functionality, and overall health &amp; wellbeing.
+              </small>
             </Carousel.Caption>
           </Carousel.Item>
 
@@ -92,17 +90,15 @@ const OurTeam = () => {
               src={natalie}
               layout={'responsive'}
               className='rounded'
-            />{' '}
+            />
             <Carousel.Caption className='team-card-text'>
-              <h4>Natalie</h4>
-              <p>
-                Natalie trained at Academy of Healing Arts in 2007. She has been
-                a massage therapist over 14 years. She has experience in
-                Swedish, Neuromuscular, and Deep Tissue Massage. She is also a
-                yoga instructor &amp; a potter and owner of the Owl&apos;s Nest
-                in Downtown Dublin. She is a proud mom of 2 children and enjoys
-                the arts and creating beautiful pieces!
-              </p>
+              <h5>Natalie</h5>
+              <small>
+                Natalie Newsome, LMT has been a massage therapist for over 14
+                years. She has experience in Swedish, Neuromuscular, and Deep
+                Tissue Massage. She is also a yoga instructor and a potter and
+                owner of the Owl&apos;s Nest in Downtown Dublin.
+              </small>
             </Carousel.Caption>
           </Carousel.Item>
 
@@ -112,32 +108,31 @@ const OurTeam = () => {
               src={megan}
               layout={'responsive'}
               className='rounded'
-            />{' '}
+            />
             <Carousel.Caption className='team-card-text'>
-              <h4>Megan</h4>
-              <p>
-                Megan has over 21 years of experience as a licensed massage
-                therapist and specializes in relaxing Swedish massage. She also
-                has further training in pre/perinatal massage, heated stone
-                massage, and aromatherapy. Megan is also a licensed esthetician
-                and a certified yoga instructor. She enjoys spending time with
-                her husband and two girls.
-              </p>
+              <h5>Megan</h5>
+              <small>
+                Megan Shepard, LMT has over 21 years experience as a licensed
+                massage therapist and specializes in relaxing Swedish massage.
+                She also has further training in pre/perinatal massage, heated
+                stone massage, and aromatherapy. Megan is also a licensed
+                esthetician, a certified yoga instructor, and owner of Pinehill
+                Candle Company.
+              </small>
             </Carousel.Caption>
           </Carousel.Item>
 
           <Carousel.Item>
-            <Image alt='' src={jel} layout={'responsive'} className='rounded' />{' '}
+            <Image alt='' src={jel} layout={'responsive'} className='rounded' />
             <Carousel.Caption className='team-card-text'>
-              <h4>Jel</h4>
-              <p>
-                Jel trained at Augusta School of Massage and has been a LMT
-                almost two years. She has experience working in a chiropractic
-                clinic. She has further training in Neural Reset Therapy &amp;
-                Thai table and Traditional Thai massage on the mat. She owns her
-                own business in Augusta where she does Thai massage &amp;
-                bodywork.
-              </p>
+              <h5>Jel</h5>
+              <small>
+                Anjelica Rosario, LMT has been a LMT for almost two years. She
+                has experience working in a chiropractic clinic. She has further
+                training in Neural Reset Therapy and Traditional Thai on the
+                mat. She owns The Sunny Orchid in Augusta where she does Thai
+                massage &amp; bodywork.
+              </small>
             </Carousel.Caption>
           </Carousel.Item>
 
@@ -147,17 +142,15 @@ const OurTeam = () => {
               src={wesley}
               layout={'responsive'}
               className='rounded'
-            />{' '}
+            />
             <Carousel.Caption className='team-card-text'>
-              <h4>Wesley </h4>
-              <p>
+              <h5>Wesley </h5>
+              <small>
                 Wesley helps keep Emerald Ease running smoothly with customer
                 service &amp; scheduling. He has been in children&apos;s
                 ministry for over 13 years. He&apos;s currently in nursing
-                school at Middle Georgia State University. He has future plans
-                to become a nurse practitioner. He has three children and enjoys
-                CrossFit and working outside in his yard.
-              </p>
+                school and has future plans to become a nurse practitioner.
+              </small>
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
