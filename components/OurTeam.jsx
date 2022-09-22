@@ -11,7 +11,7 @@ import codi from '../public/codi.jpg'
 import natalie from '../public/natalie.jpg'
 import jel from '../public/jel.jpg'
 import megan from '../public/megan.jpg'
-import wesley from '../public/wesley.jpg'
+import jessica from '../public/jessica.jpg'
 import wholeTeam from '../public/wholeTeam.jpg'
 
 const OurTeam = () => {
@@ -139,17 +139,19 @@ const OurTeam = () => {
           <Carousel.Item>
             <Image
               alt=''
-              src={wesley}
+              src={jessica}
               layout={'responsive'}
               className='rounded'
             />
             <Carousel.Caption className='team-card-text'>
-              <h5>Wesley </h5>
+              <h5>Jessica </h5>
               <small className='teamCaption'>
-                Wesley helps keep Emerald Ease running smoothly with customer
-                service &amp; scheduling. He has been in children&apos;s
-                ministry for over 13 years. He&apos;s currently in nursing
-                school and has future plans to become a nurse practitioner.
+                Jessica Daniel is a Laurens County native and has been married
+                to Tyler Daniel for over ten years. She is a mom of three
+                children and enjoys hanging out with family and reading books in
+                her free time. She&apos;ll be helping with customer service and
+                scheduling. Give us a call and let her help book your next
+                appointment!
               </small>
             </Carousel.Caption>
           </Carousel.Item>
