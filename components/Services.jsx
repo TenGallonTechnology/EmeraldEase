@@ -221,8 +221,8 @@ const Services = (props) => {
               <Card.Text>
                 Enjoy an hour massage with your partner, family member, or
                 friend. Great for an anniversary or birthday, or mother/daughter
-                time, or a girl’s day. Two tables and two licensed therapists
-                mean double the relaxation!
+                time, or a girl&apos;s day. Two tables and two licensed
+                therapists mean double the relaxation!
                 <br />
                 <small>
                   <InfoCircle className='highlight'></InfoCircle> You must call
@@ -434,8 +434,7 @@ const Services = (props) => {
                 exercise or workout.
               </Card.Text>
               <ul>
-                <li>30 Minute - $60</li>
-                <li>60 Minute - $90</li>
+                <li>60 Minute - $60</li>
               </ul>
 
               <a
