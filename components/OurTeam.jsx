@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image from 'next/legacy/image'
 import { useState } from 'react'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
@@ -139,14 +139,11 @@ const OurTeam = () => {
               className='rounded'
             />
             <Carousel.Caption className='team-card-text'>
-              <h5>Jessica </h5>
+              <h5>Colleen </h5>
               <small className='teamCaption'>
-                Jessica Daniel is a Laurens County native and has been married
-                to Tyler Daniel for over ten years. She is a mom of three
-                children and enjoys hanging out with family and reading books in
-                her free time. She&apos;ll be helping with customer service and
-                scheduling. Give us a call and let her help book your next
-                appointment!
+                Colleen will be helping with scheduling and making sure your
+                experience at Emerald Ease is exceptional! Give us a call and
+                let Coleen help get you scheduled for an appointment!
               </small>
             </Carousel.Caption>
           </Carousel.Item>
