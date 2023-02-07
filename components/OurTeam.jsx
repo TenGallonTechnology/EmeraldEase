@@ -11,15 +11,10 @@ import codi from '../public/codi.jpg'
 import natalie from '../public/natalie.jpg'
 import jel from '../public/jel.jpg'
 import megan from '../public/megan.jpg'
-import jessica from '../public/jessica.jpg'
+import colleen from '../public/colleen.png'
 import wholeTeam from '../public/wholeTeam.jpg'
 
 const OurTeam = () => {
-  const [index, setIndex] = useState(0)
-
-  const handleSelect = (selectedIndex, e) => {
-    setIndex(selectedIndex)
-  }
   return (
     <Row className='outline-light-top'>
       <Col xs={12} md={8}>
@@ -139,7 +134,7 @@ const OurTeam = () => {
           <Carousel.Item>
             <Image
               alt=''
-              src={jessica}
+              src={colleen}
               layout={'responsive'}
               className='rounded'
             />
