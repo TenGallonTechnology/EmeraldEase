@@ -139,9 +139,9 @@ const OurTeam = () => {
               className='rounded'
             />
             <Carousel.Caption className='team-card-text'>
-              <h5>Colleen </h5>
+              <h5>Coleen </h5>
               <small className='teamCaption'>
-                Colleen will be helping with scheduling and making sure your
+                Coleen will be helping with scheduling and making sure your
                 experience at Emerald Ease is exceptional! Give us a call and
                 let Coleen help get you scheduled for an appointment!
               </small>
