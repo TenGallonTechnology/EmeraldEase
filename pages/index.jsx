@@ -22,7 +22,7 @@ import {
 } from 'react-bootstrap-icons'
 
 import fredRoberts from '../public/fredRoberts.jpg'
-import pbits from '../public/pbits.png'
+import logo from '../public/TenGallonTech.png'
 
 import Services from '../components/Services'
 import OurTeam from '../components/OurTeam'
@@ -191,9 +191,9 @@ export default function Home() {
               </a>
             </Col>
             <Col>
-              <div style={{ width: '50px' }} className='float-end'>
+              <div style={{ width: '60px' }} className='float-end'>
                 <a href='https://www.tengallon.tech'>
-                  <Image src={pbits} alt='PBITS' />
+                  <Image src={logo} alt='logo' />
                 </a>
               </div>
             </Col>
