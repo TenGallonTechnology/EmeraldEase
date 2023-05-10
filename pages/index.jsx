@@ -148,7 +148,7 @@ export default function Home() {
                   className='responsive-iframe'
                   allowFullScreen=''
                   loading='lazy'
-                ></iframe>
+                />
               </div>
             </Col>
           </Row>
@@ -192,7 +192,7 @@ export default function Home() {
             </Col>
             <Col>
               <div style={{ width: '50px' }} className='float-end'>
-                <a href='https://www.pbits.online'>
+                <a href='https://www.tengallon.tech'>
                   <Image src={pbits} alt='PBITS' />
                 </a>
               </div>
