@@ -121,7 +121,6 @@ const Services = (props) => {
 
 							<ul>
 								<li>60 Minute - $90</li>
-								<li>90 Minute - $125</li>
 							</ul>
 
 							<a
