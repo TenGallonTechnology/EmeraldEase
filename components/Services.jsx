@@ -369,8 +369,7 @@ const Services = (props) => {
               </Accordion>
 
               <ul>
-                <li>45 Minute - $60</li>
-                <li>75 Minute - $90</li>
+                <li>Up to one hour</li>
               </ul>
 
               <a
@@ -412,7 +411,6 @@ const Services = (props) => {
               </Accordion>
 
               <ul>
-                <li>45 Minute - $60</li>
                 <li>75 Minute - $90</li>
               </ul>
 
@@ -426,46 +424,7 @@ const Services = (props) => {
           </Card>
         </Col>
 
-        <Col sm={12} md={4} className='my-1'>
-          <Card>
-            <Card.Header as='h5' className='text-center'>
-              Traditional Thai Bodywork
-            </Card.Header>
-            <Card.Body>
-              <Accordion>
-                <Accordion.Item eventKey='0'>
-                  <Accordion.Header>
-                    <InfoCircle />
-                    More Info
-                  </Accordion.Header>
-                  <Accordion.Body>
-                    Thai bodywork is performed with the client wearing
-                    comfortable clothing, and uses no oil or cream. Thai massage
-                    allows the therapist to lengthen the client&apos;s fascia as
-                    well as stretch the muscles through compression,
-                    acupressure, and assisted stretching. The therapist uses
-                    their legs, knees, and feet to turn and fold the client to
-                    initiate and assist deep stretches. Table Thai is a modified
-                    form of traditional Thai bodywork specifically for the
-                    massage table. Traditional Thai is performed on a floor mat.
-                  </Accordion.Body>
-                </Accordion.Item>
-              </Accordion>
-
-              <ul>
-                <li>60 Minute - $90</li>
-                <li>90 Minute - $125</li>
-              </ul>
-
-              <a
-                className='btn btn-primary btn-sm btn-block'
-                href='https://www.vagaro.com/emeraldease/book-now'
-              >
-                Book Now <CalendarDateFill />
-              </a>
-            </Card.Body>
-          </Card>
-        </Col>
+       
       </Row>
       <RstTooltip show={showRst} setShow={setShowRst} />
       <CuppingModal show={showCupping} setShow={setShowCupping} />

@@ -9,9 +9,9 @@ import { PersonHeart, InfoCircleFill } from 'react-bootstrap-icons'
 import andrea from '../public/andrea.jpg'
 import codi from '../public/codi.jpg'
 import natalie from '../public/natalie.jpg'
-import jel from '../public/jel.jpg'
 import megan from '../public/megan.jpg'
-import colleen from '../public/colleen.png'
+import coleen from '../public/coleen.jpg'
+import benjamin from '../public/benjamin.jpg'
 import wholeTeam from '../public/wholeTeam.jpg'
 
 const OurTeam = () => {
@@ -32,7 +32,7 @@ const OurTeam = () => {
           therapists offering relaxing and therapeutic massages and bodywork. We
           offer many modality options such as Swedish, deep tissue, prenatal,
           aromatherapy, warm stones, couples, chair massage, Therapeutic,
-          Cupping Therapy, Traditional Thai Bodywork, and Rossiter Stretching.
+          Cupping Therapy, and Rossiter Stretching.
         </small>
       </Col>
       <Col xs={12} md={4}>
@@ -118,15 +118,21 @@ const OurTeam = () => {
           </Carousel.Item>
 
           <Carousel.Item>
-            <Image alt='' src={jel} layout={'responsive'} className='rounded' />
+            <Image
+              alt=''
+              src={benjamin}
+              layout={'responsive'}
+              className='rounded'
+            />
             <Carousel.Caption className='team-card-text'>
-              <h5>Jel</h5>
+              <h5>Benjamin</h5>
               <small className='teamCaption'>
-                Anjelica Rosario, LMT has been a LMT for almost two years. She
-                has experience working in a chiropractic clinic. She has further
-                training in Neural Reset Therapy and Traditional Thai on the
-                mat. She owns The Sunny Orchid in Augusta where she does Thai
-                massage &amp; bodywork.
+                Benjamin is a Laurens County native and a Georgia licensed
+                massage therapist. He has a passion for health & longevity and
+                seeks to help clients reduce pain & stress through therapeutic
+                bodywork. As a runner and athlete himself, he has a special
+                interest in working with fellow athletes to help improve their
+                performance.
               </small>
             </Carousel.Caption>
           </Carousel.Item>
@@ -134,7 +140,7 @@ const OurTeam = () => {
           <Carousel.Item>
             <Image
               alt=''
-              src={colleen}
+              src={coleen}
               layout={'responsive'}
               className='rounded'
             />
