@@ -3,9 +3,7 @@ import { useState } from 'react'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Carousel from 'react-bootstrap/Carousel'
-
 import { PersonHeart, InfoCircleFill } from 'react-bootstrap-icons'
-
 import andrea from '../public/andrea.jpg'
 import codi from '../public/codi.jpg'
 import natalie from '../public/natalie.jpg'
