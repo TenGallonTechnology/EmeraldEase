@@ -369,7 +369,7 @@ const Services = (props) => {
               </Accordion>
 
               <ul>
-                <li>Up to one hour</li>
+                <li>Up To 60 Minutes - $90</li>
               </ul>
 
               <a
