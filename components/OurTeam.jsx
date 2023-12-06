@@ -65,7 +65,7 @@ const OurTeam = () => {
             <Carousel.Caption className='team-card-text'>
               <h5>Codi</h5>
               <small className='teamCaption'>
-              Codi is a licensed massage therapist, certified personal trainer, and a Deputy in Laurens County.
+              Codi is a LMT, CPT, and a Deputy in Laurens County.
               He offers therapeutic massages that include deep tissue, trigger point release, and myofascial release with the goal of combining relaxation, pain management, and recovery. 
               </small>
             </Carousel.Caption>
@@ -83,8 +83,7 @@ const OurTeam = () => {
               <small className='teamCaption'>
                 Natalie Newsome, LMT has been a massage therapist for over 14
                 years. She has experience in Swedish, Neuromuscular, and Deep
-                Tissue Massage. She is also a yoga instructor and a potter and
-                owner of the Owl&apos;s Nest in Downtown Dublin.
+                Tissue Massage. She is also a yoga instructor and a potter.
               </small>
             </Carousel.Caption>
           </Carousel.Item>
