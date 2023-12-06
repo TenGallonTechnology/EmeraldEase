@@ -1,5 +1,4 @@
 import Image from 'next/legacy/image'
-import { useState } from 'react'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Carousel from 'react-bootstrap/Carousel'
@@ -9,7 +8,6 @@ import codi from '../public/codi.jpg'
 import natalie from '../public/natalie.jpg'
 import megan from '../public/megan.jpg'
 import coleen from '../public/coleen.jpg'
-import benjamin from '../public/benjamin.jpg'
 import wholeTeam from '../public/wholeTeam.jpg'
 
 const OurTeam = () => {
@@ -67,12 +65,8 @@ const OurTeam = () => {
             <Carousel.Caption className='team-card-text'>
               <h5>Codi</h5>
               <small className='teamCaption'>
-                Codi Martin, LMT is a former Sheriff&apos;s deputy &amp;
-                certified personal trainer. He offers therapeutic massage,
-                cupping therapy, NRT, Rossiter, couples, and chair massage. His
-                long-term goal is to help clients with pain management, postural
-                deviations, athletic performance &amp; recovery, mobility &amp;
-                functionality, and overall health &amp; wellbeing.
+              Codi is a licensed massage therapist, certified personal trainer, and a Deputy in Laurens County.
+              He offers therapeutic massages that include deep tissue, trigger point release, and myofascial release with the goal of combining relaxation, pain management, and recovery.  His Bodywork sessions utilize different manual therapies and focus on specific pain or mobility issues. He has specific training in cupping therapy, Neural Reset, Rossiter Stretch Technique, RAPID technique, along with techniques that help improve carpal tunnel syndrome, TMJ jaw work, neck & back pain, along with several other specific pain issues. His goal is to help clients with pain management, athletic performance and recovery, mobility and functionality, and overall well-being.
               </small>
             </Carousel.Caption>
           </Carousel.Item>
@@ -111,26 +105,6 @@ const OurTeam = () => {
                 stone massage, and aromatherapy. Megan is also a licensed
                 esthetician, a certified yoga instructor, and owner of Pinehill
                 Candle Company.
-              </small>
-            </Carousel.Caption>
-          </Carousel.Item>
-
-          <Carousel.Item>
-            <Image
-              alt=''
-              src={benjamin}
-              layout={'responsive'}
-              className='rounded'
-            />
-            <Carousel.Caption className='team-card-text'>
-              <h5>Benjamin</h5>
-              <small className='teamCaption'>
-                Benjamin is a Laurens County native and a Georgia licensed
-                massage therapist. He has a passion for health & longevity and
-                seeks to help clients reduce pain & stress through therapeutic
-                bodywork. As a runner and athlete himself, he has a special
-                interest in working with fellow athletes to help improve their
-                performance.
               </small>
             </Carousel.Caption>
           </Carousel.Item>
