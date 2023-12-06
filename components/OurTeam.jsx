@@ -66,7 +66,7 @@ const OurTeam = () => {
               <h5>Codi</h5>
               <small className='teamCaption'>
               Codi is a licensed massage therapist, certified personal trainer, and a Deputy in Laurens County.
-              He offers therapeutic massages that include deep tissue, trigger point release, and myofascial release with the goal of combining relaxation, pain management, and recovery.  His Bodywork sessions utilize different manual therapies and focus on specific pain or mobility issues. He has specific training in cupping therapy, Neural Reset, Rossiter Stretch Technique, RAPID technique, along with techniques that help improve carpal tunnel syndrome, TMJ jaw work, neck & back pain, along with several other specific pain issues. His goal is to help clients with pain management, athletic performance and recovery, mobility and functionality, and overall well-being.
+              He offers therapeutic massages that include deep tissue, trigger point release, and myofascial release with the goal of combining relaxation, pain management, and recovery. 
               </small>
             </Carousel.Caption>
           </Carousel.Item>
