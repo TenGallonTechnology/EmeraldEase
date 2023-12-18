@@ -102,8 +102,7 @@ const OurTeam = () => {
                 massage therapist and specializes in relaxing Swedish massage.
                 She also has further training in pre/perinatal massage, heated
                 stone massage, and aromatherapy. Megan is also a licensed
-                esthetician, a certified yoga instructor, and owner of Pinehill
-                Candle Company.
+                esthetician, and a certified yoga instructor.
               </small>
             </Carousel.Caption>
           </Carousel.Item>
