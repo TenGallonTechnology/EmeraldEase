@@ -88,7 +88,7 @@ const Services = (props) => {
               <ul>
                 <li>30 Minute - $60</li>
                 <li>60 Minute - $90</li>
-                <li>90 Minute - $125</li>
+                <li>90 Minute - $135</li>
               </ul>
 
               <a
@@ -156,7 +156,7 @@ const Services = (props) => {
               </Accordion>
 
               <ul>
-                <li>90 Minute - $125</li>
+                <li>90 Minute - $135</li>
               </ul>
 
               <a
@@ -369,7 +369,8 @@ const Services = (props) => {
               </Accordion>
 
               <ul>
-                <li>Up To 60 Minute - $90</li>
+                <li>60 Minute - $90</li>
+                <li>90 Minute - $135</li>
               </ul>
 
               <a
