@@ -8,6 +8,7 @@ import codi from '../public/codi.jpg'
 import natalie from '../public/natalie.jpg'
 import megan from '../public/megan.jpg'
 import coleen from '../public/coleen.jpg'
+import van from '../public/van.jpg'
 import wholeTeam from '../public/wholeTeam.jpg'
 
 const OurTeam = () => {
@@ -103,6 +104,21 @@ const OurTeam = () => {
                 She also has further training in pre/perinatal massage, heated
                 stone massage, and aromatherapy. Megan is also a licensed
                 esthetician, and a certified yoga instructor.
+              </small>
+            </Carousel.Caption>
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <Image
+              alt=''
+              src={van}
+              layout={'responsive'}
+              className='rounded'
+            />
+            <Carousel.Caption className='team-card-text'>
+              <h5>Van </h5>
+              <small className='teamCaption'>
+              Van has been working in a clinical setting as a licensed therapist for over 13 years and is also an Army Veteran. He is available for therapeutic, warm stones, & pre-natal massage sessions.
               </small>
             </Carousel.Caption>
           </Carousel.Item>
