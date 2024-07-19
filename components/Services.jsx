@@ -383,47 +383,7 @@ const Services = (props) => {
           </Card>
         </Col>
 
-        <Col sm={12} md={4} className='my-1'>
-          <Card>
-            <Card.Header as='h5' className='text-center'>
-              Table Stretching &amp; Compressions
-            </Card.Header>
-            <Card.Body>
-              <Accordion>
-                <Accordion.Item eventKey='0'>
-                  <Accordion.Header>
-                    <InfoCircle />
-                    More Info
-                  </Accordion.Header>
-                  <Accordion.Body>
-                    In this session the client is FULLY CLOTHED; we suggest
-                    wearing comfortable gym clothing that is easy to move in.
-                    There is NO oil or cream used for this session. This is a
-                    relaxing blend of long compression holds, rhythmic
-                    compressions, joint mobilization, &amp; passive stretching.
-                    This session is mostly passive and requires very little from
-                    the client. If you&apos;re looking to be stretched out, this
-                    is the session for you! The therapist can focus on upper or
-                    lower body for the 45 min session and full body stretching
-                    in the 75 min session. Helps relieve tension, relax the
-                    body, and increase range of motion and flexibility.
-                  </Accordion.Body>
-                </Accordion.Item>
-              </Accordion>
-
-              <ul>
-                <li>75 Minute - $90</li>
-              </ul>
-
-              <a
-                className='btn btn-primary btn-sm btn-block'
-                href='https://www.vagaro.com/emeraldease/book-now'
-              >
-                Book Now <CalendarDateFill />
-              </a>
-            </Card.Body>
-          </Card>
-        </Col>
+        
 
        
       </Row>
