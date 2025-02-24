@@ -63,10 +63,10 @@ body {
   @extend .rounded;
   @extend .bg-light;
   @extend .bg-opacity-75;
+  @extend .text-center;
   @extend .p-1;
+  @extend .mx-auto;
   @extend .text-dark;
-  @extend .mb-1;
-  @extend .mx-0;
 }
 
 .teamCaption {

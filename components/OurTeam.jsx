@@ -6,7 +6,7 @@ import { PersonHeart, InfoCircleFill } from 'react-bootstrap-icons'
 import andrea from '../public/andrea.jpg'
 import codi from '../public/codi.jpg'
 import natalie from '../public/natalie.jpg'
-import megan from '../public/megan.jpg'
+import charlie from '../public/charlie.jpg'
 import coleen from '../public/coleen.jpg'
 import van from '../public/van.jpg'
 import wholeTeam from '../public/wholeTeam.jpg'
@@ -92,18 +92,14 @@ const OurTeam = () => {
           <Carousel.Item>
             <Image
               alt=''
-              src={megan}
+              src={charlie}
               layout={'responsive'}
               className='rounded'
             />
             <Carousel.Caption className='team-card-text'>
-              <h5>Megan</h5>
+              <h5>Charlie</h5>
               <small className='teamCaption'>
-                Megan Shepard, LMT has over 21 years experience as a licensed
-                massage therapist and specializes in relaxing Swedish massage.
-                She also has further training in pre/perinatal massage, heated
-                stone massage, and aromatherapy. Megan is also a licensed
-                esthetician, and a certified yoga instructor.
+                Charlie is a recent graduate of Massage Therapy school and is newly licensed. She is also a welder with her family business. Charlie is available for therapeutic, warm stones, prenatal, and couple massage sessions.
               </small>
             </Carousel.Caption>
           </Carousel.Item>

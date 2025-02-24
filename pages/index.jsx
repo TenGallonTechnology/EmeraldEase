@@ -101,9 +101,7 @@ export default function Home() {
             <div className='card-body'>
               Business Hours: Monday-Friday, 8:30 am-6:00 pm
               <br />
-              <InfoCircle /> Select Saturdays each month. See our schedule or
-              call!
-              <br /> Book Your Appointment Now!{' '}
+              Book Your Appointment Now!{' '}
               <a
                 className='btn btn-outline-dark btn-sm'
                 href='https://www.vagaro.com/emeraldease/book-now'

@@ -135,7 +135,7 @@ const Services = (props) => {
         <Col sm={12} md={4} className='my-1'>
           <Card>
             <Card.Header as='h5' className='text-center'>
-              Aromatherapy Massage
+              Bodywork
             </Card.Header>
             <Card.Body>
               <Accordion>
@@ -145,12 +145,63 @@ const Services = (props) => {
                     More Info
                   </Accordion.Header>
                   <Accordion.Body>
-                    Ninety minutes of relaxation using the DoTerra Aromatouch
-                    massage technique. This session uses select DoTerra
-                    essential oils (Balance, Lavender, Peppermint, Tea Tree,
-                    Wild Orange, AromaTouch, Deep Blue, and On Guard) in a
-                    unique sequence that provides the ultimate essential oil
-                    experience.
+                    This session is will focus on a specific issues or problem
+                    areas and a primary goal. Minimal cream/gel is used. This is
+                    individually tailored to each client and their desired
+                    outcome. The therapist and client will work together to
+                    address the goals of the client. There will be talking
+                    during this session, along with interaction from the client.
+                    The goal is to improve a specific issue while targeting
+                    specific muscle groups, rather than simply helping you to
+                    relax. This session may involve a variety of techniques,
+                    passive, active, or resistive stretching techniques,
+                    <Button
+                      size='sm'
+                      variant='link'
+                      className='p-0'
+                      onClick={() => setShowNrt(true)}
+                    >
+                      {' '}
+                      Neural Reset Therapy
+                    </Button>
+                    ,{' '}
+                    <Button
+                      size='sm'
+                      variant='link'
+                      className='p-0'
+                      onClick={() => setShowCupping(true)}
+                    >
+                      Cupping
+                    </Button>
+                    ,
+                    <Button
+                      size='sm'
+                      variant='link'
+                      className='p-0'
+                      onClick={() => setShowRst(true)}
+                    >
+                      Rossiter Stretch Technique
+                    </Button>
+                    , and other manual massage techniques. This session is led
+                    by the therapist who will make suggestions within the scope
+                    of practice to achieve the goals for the specific outcome
+                    that is desired to help improve health and overall wellness
+                    for the body&apos;s connective tissues and the muscular
+                    system. This is great for people who want to improve ROM or
+                    mobility, specific pain issues, have carpel tunnel, TMJ,
+                    plantar fasciitis, Golfer&apos;s/Tennis elbow, frozen
+                    shoulder, sciatic pain, or to increase recovery and mobility
+                    for athletes. This style of bodywork holistically looks at
+                    the entire body, with its focus being treating pain,
+                    structural dysfunctions, improving injury rehabilitation,
+                    and helping eliminate acute or chronic pain. The therapist
+                    may perform assessments to find out what structures are
+                    causing your pain or your postural dysfunction and the
+                    session will be focused around treating the muscles that are
+                    causing the pain in your body. These sessions may need to be
+                    more regular to begin with and your therapist may help build
+                    a treatment plan that includes some self-care exercises or
+                    stretching to be done at home to help improve your progress.
                   </Accordion.Body>
                 </Accordion.Item>
               </Accordion>
@@ -292,100 +343,6 @@ const Services = (props) => {
             </Card.Body>
           </Card>
         </Col>
-      </Row>
-      <Row className='mb-5 justify-content-center'>
-        <Col sm={12} md={4} className='my-1'>
-          <Card>
-            <Card.Header as='h5' className='text-center'>
-              Bodywork
-            </Card.Header>
-            <Card.Body>
-              <Accordion>
-                <Accordion.Item eventKey='0'>
-                  <Accordion.Header>
-                    <InfoCircle />
-                    More Info
-                  </Accordion.Header>
-                  <Accordion.Body>
-                    This session is will focus on a specific issues or problem
-                    areas and a primary goal. Minimal cream/gel is used. This is
-                    individually tailored to each client and their desired
-                    outcome. The therapist and client will work together to
-                    address the goals of the client. There will be talking
-                    during this session, along with interaction from the client.
-                    The goal is to improve a specific issue while targeting
-                    specific muscle groups, rather than simply helping you to
-                    relax. This session may involve a variety of techniques,
-                    passive, active, or resistive stretching techniques,
-                    <Button
-                      size='sm'
-                      variant='link'
-                      className='p-0'
-                      onClick={() => setShowNrt(true)}
-                    >
-                      {' '}
-                      Neural Reset Therapy
-                    </Button>
-                    ,{' '}
-                    <Button
-                      size='sm'
-                      variant='link'
-                      className='p-0'
-                      onClick={() => setShowCupping(true)}
-                    >
-                      Cupping
-                    </Button>
-                    ,
-                    <Button
-                      size='sm'
-                      variant='link'
-                      className='p-0'
-                      onClick={() => setShowRst(true)}
-                    >
-                      Rossiter Stretch Technique
-                    </Button>
-                    , and other manual massage techniques. This session is led
-                    by the therapist who will make suggestions within the scope
-                    of practice to achieve the goals for the specific outcome
-                    that is desired to help improve health and overall wellness
-                    for the body&apos;s connective tissues and the muscular
-                    system. This is great for people who want to improve ROM or
-                    mobility, specific pain issues, have carpel tunnel, TMJ,
-                    plantar fasciitis, Golfer&apos;s/Tennis elbow, frozen
-                    shoulder, sciatic pain, or to increase recovery and mobility
-                    for athletes. This style of bodywork holistically looks at
-                    the entire body, with its focus being treating pain,
-                    structural dysfunctions, improving injury rehabilitation,
-                    and helping eliminate acute or chronic pain. The therapist
-                    may perform assessments to find out what structures are
-                    causing your pain or your postural dysfunction and the
-                    session will be focused around treating the muscles that are
-                    causing the pain in your body. These sessions may need to be
-                    more regular to begin with and your therapist may help build
-                    a treatment plan that includes some self-care exercises or
-                    stretching to be done at home to help improve your progress.
-                  </Accordion.Body>
-                </Accordion.Item>
-              </Accordion>
-
-              <ul>
-                <li>Up To 60 Minute - $90</li>
-                <li>90 Minute - $135</li>
-              </ul>
-
-              <a
-                className='btn btn-primary btn-sm btn-block'
-                href='https://www.vagaro.com/emeraldease/book-now'
-              >
-                Book Now <CalendarDateFill />
-              </a>
-            </Card.Body>
-          </Card>
-        </Col>
-
-        
-
-       
       </Row>
       <RstTooltip show={showRst} setShow={setShowRst} />
       <CuppingModal show={showCupping} setShow={setShowCupping} />
