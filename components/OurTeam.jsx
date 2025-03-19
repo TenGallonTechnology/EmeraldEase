@@ -6,7 +6,7 @@ import { PersonHeart, InfoCircleFill } from 'react-bootstrap-icons'
 import andrea from '../public/andrea.jpg'
 import codi from '../public/codi.jpg'
 import natalie from '../public/natalie.jpg'
-import charlie from '../public/charlie.jpg'
+
 import coleen from '../public/coleen.jpg'
 import van from '../public/van.jpg'
 import wholeTeam from '../public/wholeTeam.jpg'
@@ -89,20 +89,7 @@ const OurTeam = () => {
             </Carousel.Caption>
           </Carousel.Item>
 
-          <Carousel.Item>
-            <Image
-              alt=''
-              src={charlie}
-              layout={'responsive'}
-              className='rounded'
-            />
-            <Carousel.Caption className='team-card-text'>
-              <h5>Charlie</h5>
-              <small className='teamCaption'>
-                Charlie is a recent graduate of Massage Therapy school and is newly licensed. She is also a welder with her family business. Charlie is available for therapeutic, warm stones, prenatal, and couple massage sessions.
-              </small>
-            </Carousel.Caption>
-          </Carousel.Item>
+        
 
           <Carousel.Item>
             <Image
