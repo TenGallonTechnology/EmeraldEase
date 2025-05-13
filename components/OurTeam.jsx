@@ -133,7 +133,7 @@ const OurTeam = () => {
             <Carousel.Caption className='team-card-text'>
               <h5>Monique </h5>
               <small className='teamCaption'>
-                Monique's been a Licensed Massage Therapist over 13 years with experience working at a luxury resort spa in north Georgia, in medical clinic settings, along with owning her own mobile massage business in Atlanta. 
+                Monique has been a Licensed Massage Therapist over 13 years with experience working at a luxury resort spa in north Georgia, in medical clinic settings, along with owning her own mobile massage business in Atlanta. 
               </small>
             </Carousel.Caption>
           </Carousel.Item>
