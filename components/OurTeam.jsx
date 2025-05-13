@@ -6,7 +6,7 @@ import { PersonHeart, InfoCircleFill } from 'react-bootstrap-icons'
 import andrea from '../public/andrea.jpg'
 import codi from '../public/codi.jpg'
 import natalie from '../public/natalie.jpg'
-
+import monique from '../public/monique.jpg'
 import coleen from '../public/coleen.jpg'
 import van from '../public/van.jpg'
 import wholeTeam from '../public/wholeTeam.png'
@@ -119,6 +119,21 @@ const OurTeam = () => {
                 Coleen will be helping with scheduling and making sure your
                 experience at Emerald Ease is exceptional! Give us a call and
                 let Coleen help get you scheduled for an appointment!
+              </small>
+            </Carousel.Caption>
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <Image
+              alt=''
+              src={monique}
+              layout={'responsive'}
+              className='rounded'
+            />
+            <Carousel.Caption className='team-card-text'>
+              <h5>Monique </h5>
+              <small className='teamCaption'>
+                Monique's been a Licensed Massage Therapist over 13 years with experience working at a luxury resort spa in north Georgia, in medical clinic settings, along with owning her own mobile massage business in Atlanta. 
               </small>
             </Carousel.Caption>
           </Carousel.Item>
