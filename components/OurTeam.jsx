@@ -9,7 +9,7 @@ import natalie from '../public/natalie.jpg'
 import monique from '../public/monique.jpg'
 import coleen from '../public/coleen.jpg'
 import van from '../public/van.jpg'
-import wholeTeam from '../public/wholeTeam.png'
+import wholeTeam from '../public/wholeTeam.jpg'
 
 const OurTeam = () => {
   return (
