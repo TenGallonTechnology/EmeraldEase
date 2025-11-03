@@ -6,7 +6,7 @@ import { PersonHeart, InfoCircleFill } from 'react-bootstrap-icons'
 import andrea from '../public/andrea.jpg'
 import codi from '../public/codi.jpg'
 import natalie from '../public/natalie.jpg'
-import monique from '../public/monique.jpg'
+import autumn from '../public/autumn.jpg'
 import coleen from '../public/coleen.jpg'
 import van from '../public/van.jpg'
 import wholeTeam from '../public/wholeTeam.jpg'
@@ -14,7 +14,7 @@ import wholeTeam from '../public/wholeTeam.jpg'
 const OurTeam = () => {
   return (
     <Row className='outline-light-top'>
-      <Col xs={12} md={8}>
+      <Col md={12} lg={7}>
         <h3 className='font-weight-light'>
           About Us <InfoCircleFill />
         </h3>
@@ -32,7 +32,8 @@ const OurTeam = () => {
           Cupping Therapy, and Rossiter Stretching.
         </small>
       </Col>
-      <Col xs={12} md={4}>
+      
+      <Col md={12} lg={5}>
         <h3 className='font-weight-light text-center'>
           Our Team <PersonHeart />
         </h3>
@@ -126,14 +127,14 @@ const OurTeam = () => {
           <Carousel.Item>
             <Image
               alt=''
-              src={monique}
+              src={autumn}
               layout={'responsive'}
               className='rounded'
             />
             <Carousel.Caption className='team-card-text'>
-              <h5>Monique </h5>
+              <h5>Autumn </h5>
               <small className='teamCaption'>
-                Monique has been a Licensed Massage Therapist over 13 years with experience working at a luxury resort spa in north Georgia, in medical clinic settings, along with owning her own mobile massage business in Atlanta. 
+                Autumn has been a Licensed Massage Therapist over four years with experience in several different massage modalities.  She enjoys walking, listening to music, and hanging out with her fur babies. 
               </small>
             </Carousel.Caption>
           </Carousel.Item>
