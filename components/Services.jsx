@@ -69,18 +69,15 @@ const Services = (props) => {
                     More Info
                   </Accordion.Header>
                   <Accordion.Body>
-                    This session is different for each client and tailored to
-                    their specific goals and needs. This massage can be purely
-                    relaxing or focused on specific problem areas, or blended
-                    with both! A combination and variety of massage techniques
-                    may be used, ranging from Swedish massage, light/medium/
-                    firm pressure, myofascial release, trigger point, muscle
-                    stripping, deep tissue massage, cupping, or passive
-                    stretching. The therapist will discuss your pressure
-                    preference and goals for the session when you arrive, and
-                    will focus on the things that are important to you. This
-                    massage treatment helps relieve stress or pain, release
-                    muscle tension, and improves overall health.
+                    This session is different for each client and tailored to their specific goals and needs.
+This massage can be purely relaxing or focused on specific problem areas, or blended
+with both! A combination and variety of massage techniques and tools may be used,
+ranging from Swedish massage, light/medium/ firm pressure, myofascial release, trigger
+point, muscle stripping, deep tissue massage using bamboo sticks, cupping, or passive
+stretching. The therapist will discuss your pressure preference and goals for the session
+when you arrive, and will focus on the things that are important to you. This massage
+treatment helps relieve stress or pain, release muscle tension, and improves overall
+health.
                   </Accordion.Body>
                 </Accordion.Item>
               </Accordion>
@@ -158,7 +155,7 @@ only during the colder months.
               </Accordion>
 
               <ul>
-                <li>60 Minute - $120</li>
+                <li>60 Minute - $110</li>
               </ul>
 
               <a
@@ -368,7 +365,7 @@ only during the colder months.
               </small>
 
               <ul>
-                <li>Corporate - $90 per hour, per therapist + travel</li>
+                <li>Corporate - $100 per hour, per therapist + travel</li>
               </ul>
 
               <a
