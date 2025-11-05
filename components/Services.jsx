@@ -117,7 +117,7 @@ health.
               </Accordion>
 
               <ul>
-                <li>60 Minute - $120</li>
+                <li>60 Minute - $110</li>
               </ul>
 
               <a
