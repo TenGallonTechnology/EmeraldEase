@@ -56,7 +56,7 @@ const Services = (props) => {
       </Row>
       <hr />
       <Row className='mb-2 justify-content-center'>
-        <Col sm={12} md={4} className='my-1'>
+        <Col sm={12} md={3} className='my-1'>
           <Card>
             <Card.Header as='h5' className='text-center'>
               Therapeutic Massage
@@ -86,9 +86,9 @@ const Services = (props) => {
               </Accordion>
 
               <ul>
-                <li>30 Minute - $60</li>
-                <li>60 Minute - $90</li>
-                <li>90 Minute - $135</li>
+                <li>30 Minute - $65</li>
+                <li>60 Minute - $100</li>
+                <li>90 Minute - $150</li>
               </ul>
 
               <a
@@ -100,7 +100,7 @@ const Services = (props) => {
             </Card.Body>
           </Card>
         </Col>
-        <Col sm={12} md={4} className='my-1'>
+        <Col sm={12} md={3} className='my-1'>
           <Card>
             <Card.Header as='h5' className='text-center'>
               Warm Stone Massage
@@ -120,7 +120,7 @@ const Services = (props) => {
               </Accordion>
 
               <ul>
-                <li>60 Minute - $90</li>
+                <li>60 Minute - $120</li>
               </ul>
 
               <a
@@ -132,7 +132,45 @@ const Services = (props) => {
             </Card.Body>
           </Card>
         </Col>
-        <Col sm={12} md={4} className='my-1'>
+         <Col sm={12} md={3} className='my-1'>
+          <Card>
+            <Card.Header as='h5' className='text-center'>
+              Sticks and Stones Massage
+            </Card.Header>
+            <Card.Body>
+              <Accordion>
+                <Accordion.Item eventKey='0'>
+                  <Accordion.Header>
+                    <InfoCircle />
+                    More Info
+                  </Accordion.Header>
+                  <Accordion.Body>
+                    Embrace the warmth this winter with our Sticks &amp; Stones massage — a luxurious seasonal
+treatment that melts away tension and soothes the senses. Smooth, warm bamboo sticks glide
+across the body to stretch and release tight muscles, while warm stones deliver deep, comforting
+heat to melt stress from head to toe-- making it ideal for those who love the intensity of deep
+tissue work with an added element of comforting heat. This unique fusion of warmth and flow
+promotes circulation, eases sore muscles, and leaves you feeling balanced, renewed, and deeply
+relaxed. A perfect cozy escape for chilly days — Sticks &amp; Stones is available for a limited time
+only during the colder months.
+                  </Accordion.Body>
+                </Accordion.Item>
+              </Accordion>
+
+              <ul>
+                <li>60 Minute - $120</li>
+              </ul>
+
+              <a
+                className='btn btn-primary btn-sm btn-block'
+                href='https://www.vagaro.com/emeraldease/book-now'
+              >
+                Book Now <CalendarDateFill />
+              </a>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col sm={12} md={3} className='my-1'>
           <Card>
             <Card.Header as='h5' className='text-center'>
               Bodywork
@@ -207,7 +245,7 @@ const Services = (props) => {
               </Accordion>
 
               <ul>
-                <li>90 Minute - $135</li>
+                <li>90 Minute - $150</li>
               </ul>
 
               <a
@@ -244,8 +282,8 @@ const Services = (props) => {
               </Accordion>
 
               <ul>
-                <li>30 Minute - $60</li>
-                <li>60 Minute - $90</li>
+                <li>30 Minute - $65</li>
+                <li>60 Minute - $100</li>
               </ul>
 
               <a
@@ -284,7 +322,7 @@ const Services = (props) => {
               </small>
 
               <ul>
-                <li>60 Minute - $180</li>
+                <li>60 Minute - $200</li>
               </ul>
 
               <a
