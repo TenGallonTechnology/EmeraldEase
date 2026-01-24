@@ -1,8 +1,10 @@
 <template>
   <UContainer class="py-6">
     <!-- Business Hours Banner -->
-    <UCard class="mt-5 mb-5 bg-emerald-100 border-emerald-200">
-      <div class="text-center text-gray-800">
+    <UCard
+      class="mt-5 mb-5 bg-emerald-100/70 border-emerald-200/70 backdrop-blur-sm"
+    >
+      <div class="text-center">
         <p class="mb-2">
           <strong>Business Hours:</strong> Monday-Friday, 8:30 am-6:00 pm
         </p>
@@ -28,26 +30,32 @@
 
     <!-- Location and Directions Section -->
     <div
-      class="grid grid-cols-1 md:grid-cols-2 gap-6 border-t-2 border-gray-100 mt-8 pt-4"
+      class="grid grid-cols-1 md:grid-cols-2 gap-6 border-t-2 border-default mt-8 pt-4"
     >
       <!-- Our Location -->
-      <div>
+      <div class="text-gray-900">
         <h3
           class="text-2xl mb-4 text-center flex items-center justify-center gap-2"
         >
           Our Location
-          <Icon name="heroicons:building-office-2" class="w-6 h-6" />
+          <Icon
+            name="heroicons:building-office-2"
+            class="w-6 h-6 text-primary"
+          />
         </h3>
-        <div class="bg-gray-900 text-white p-6 rounded-lg mb-4">
-          <p>
+        <div class="p-6 rounded-lg mb-4">
+          <p class="text-gray-700">
             We are located at
-            <a
-              class="text-cyan-400 hover:underline"
-              href="https://maps.google.com/maps?key=AIzaSyDaa0FdAfpQzAF1c7Twg7QyIZZ_iFHthto&daddr=306%20Academy%20Avenue,%20101,Dublin,Georgia,31021&saddr=&hl=en"
+            <UButton
+              to="https://maps.google.com/maps?key=AIzaSyDaa0FdAfpQzAF1c7Twg7QyIZZ_iFHthto&daddr=306%20Academy%20Avenue,%20101,Dublin,Georgia,31021&saddr=&hl=en"
+              external
               target="_blank"
+              color="primary"
+              variant="link"
+              class="p-0 align-baseline"
             >
               306 Academy Avenue, Suite 101, Dublin, GA 31021
-            </a>
+            </UButton>
             in the Fred Roberts downtown.
           </p>
         </div>
@@ -65,7 +73,7 @@
           class="text-2xl mb-4 text-center flex items-center justify-center gap-2"
         >
           Directions
-          <Icon name="heroicons:map-pin" class="w-6 h-6" />
+          <Icon name="heroicons:map-pin" class="w-6 h-6 text-primary" />
         </h3>
         <div class="relative w-full pt-[100%]">
           <iframe
@@ -88,7 +96,7 @@
           <UButton
             to="mailto:emeraldease@gmail.com"
             color="primary"
-            variant="outline"
+            variant="soft"
             block
             icon="i-heroicons-envelope"
           >
@@ -99,7 +107,7 @@
           <UButton
             to="tel:4786970721"
             color="primary"
-            variant="outline"
+            variant="soft"
             block
             icon="i-heroicons-phone"
           >
@@ -113,11 +121,11 @@
 
 <script setup lang="ts">
 useSeoMeta({
-  title: 'Emerald Ease',
+  title: "Emerald Ease",
   description:
-    'Andrea Craft, Licensed Massage Practitioner in Dublin, GA, specializes in relaxing and therapeutic massage modalities including Swedish, maternity, Myofascial Release, sports/orthopedic, hot stone, chair massage, and bodywork. Book your appointment today!',
-  ogTitle: 'Emerald Ease',
+    "Andrea Craft, Licensed Massage Practitioner in Dublin, GA, specializes in relaxing and therapeutic massage modalities including Swedish, maternity, Myofascial Release, sports/orthopedic, hot stone, chair massage, and bodywork. Book your appointment today!",
+  ogTitle: "Emerald Ease",
   ogDescription:
-    'Andrea Craft, Licensed Massage Practitioner in Dublin, GA, specializes in relaxing and therapeutic massage modalities including Swedish, maternity, Myofascial Release, sports/orthopedic, hot stone, chair massage, and bodywork. Book your appointment today!'
-})
+    "Andrea Craft, Licensed Massage Practitioner in Dublin, GA, specializes in relaxing and therapeutic massage modalities including Swedish, maternity, Myofascial Release, sports/orthopedic, hot stone, chair massage, and bodywork. Book your appointment today!",
+});
 </script>

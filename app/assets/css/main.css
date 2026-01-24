@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@theme {
+  /* Custom Emerald Ease color palette */
+  --color-emerald-ease-50: #f0fdf5;
+  --color-emerald-ease-100: #dcfce8;
+  --color-emerald-ease-200: #bbf7d1;
+  --color-emerald-ease-300: #86efac;
+  --color-emerald-ease-400: #5bc84a;
+  --color-emerald-ease-500: #34b64f;
+  --color-emerald-ease-600: #16a34a;
+  --color-emerald-ease-700: #15803d;
+  --color-emerald-ease-800: #166534;
+  --color-emerald-ease-900: #14532d;
+}

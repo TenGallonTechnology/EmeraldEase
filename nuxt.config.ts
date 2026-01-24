@@ -10,6 +10,12 @@ export default defineNuxtConfig({
   
   compatibilityDate: '2024-11-01',
 
+  css: ['~/assets/css/main.css'],
+
+  ui: {
+    colorMode: false
+  },
+
   image: {
     quality: 80,
     format: ['webp']
