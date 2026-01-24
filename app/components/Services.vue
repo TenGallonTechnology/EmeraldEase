@@ -154,11 +154,96 @@
             {
               label: 'More Info',
               icon: 'i-heroicons-information-circle',
-              content:
-                'This session will focus on specific issues or problem areas and a primary goal. Minimal cream/gel is used. This is individually tailored to each client and their desired outcome. The therapist and client will work together to address the goals of the client. There will be talking during this session, along with interaction from the client. The goal is to improve a specific issue while targeting specific muscle groups, rather than simply helping you to relax. This session may involve a variety of techniques, passive, active, or resistive stretching techniques, Neural Reset Therapy, Cupping, Rossiter Stretch Technique, and other manual massage techniques. This session is led by the therapist who will make suggestions within the scope of practice to achieve the goals for the specific outcome that is desired to help improve health and overall wellness for the body\'s connective tissues and the muscular system. This is great for people who want to improve ROM or mobility, specific pain issues, have carpal tunnel, TMJ, plantar fasciitis, Golfer\'s/Tennis elbow, frozen shoulder, sciatic pain, or to increase recovery and mobility for athletes. This style of bodywork holistically looks at the entire body, with its focus being treating pain, structural dysfunctions, improving injury rehabilitation, and helping eliminate acute or chronic pain. The therapist may perform assessments to find out what structures are causing your pain or your postural dysfunction and the session will be focused around treating the muscles that are causing the pain in your body. These sessions may need to be more regular to begin with and your therapist may help build a treatment plan that includes some self-care exercises or stretching to be done at home to help improve your progress.',
+              slot: 'bodywork',
             },
           ]"
-        />
+        >
+          <template #bodywork-body>
+            <div class="space-y-3 text-sm text-gray-700">
+              <p>
+                This session will focus on specific issues or problem areas and a
+                primary goal. Minimal cream/gel is used. This is individually
+                tailored to each client and their desired outcome. The therapist
+                and client will work together to address the goals of the client.
+                There will be talking during this session, along with interaction
+                from the client.
+              </p>
+
+              <p>
+                The goal is to improve a specific issue while targeting specific
+                muscle groups, rather than simply helping you to relax.
+              </p>
+
+              <p>
+                This session may involve a variety of techniques, passive,
+                active, or resistive stretching techniques,
+                <UButton
+                  color="primary"
+                  variant="link"
+                  class="p-0 inline font-semibold underline underline-offset-4 align-baseline"
+                  @click="showNrt = true"
+                >
+                  Neural Reset Therapy
+                </UButton>
+                ,
+                <UButton
+                  color="primary"
+                  variant="link"
+                  class="p-0 inline font-semibold underline underline-offset-4 align-baseline"
+                  @click="showCupping = true"
+                >
+                  Cupping
+                </UButton>
+                ,
+                <UButton
+                  color="primary"
+                  variant="link"
+                  class="p-0 inline font-semibold underline underline-offset-4 align-baseline"
+                  @click="showRst = true"
+                >
+                  Rossiter Stretch Technique
+                </UButton>
+                , and other manual massage techniques.
+              </p>
+
+              <p>
+                This session is led by the therapist who will make suggestions
+                within the scope of practice to achieve the goals for the specific
+                outcome that is desired to help improve health and overall
+                wellness for the body's connective tissues and the muscular
+                system.
+              </p>
+
+              <p>
+                This is great for people who want to improve ROM or mobility,
+                specific pain issues, have carpal tunnel, TMJ, plantar fasciitis,
+                Golfer's/Tennis elbow, frozen shoulder, sciatic pain, or to
+                increase recovery and mobility for athletes.
+              </p>
+
+              <p>
+                This style of bodywork holistically looks at the entire body,
+                with its focus being treating pain, structural dysfunctions,
+                improving injury rehabilitation, and helping eliminate acute or
+                chronic pain.
+              </p>
+
+              <p>
+                The therapist may perform assessments to find out what structures
+                are causing your pain or your postural dysfunction and the session
+                will be focused around treating the muscles that are causing the
+                pain in your body.
+              </p>
+
+              <p>
+                These sessions may need to be more regular to begin with and your
+                therapist may help build a treatment plan that includes some
+                self-care exercises or stretching to be done at home to help
+                improve your progress.
+              </p>
+            </div>
+          </template>
+        </UAccordion>
 
         <ul class="list-disc list-inside mt-3">
           <li>90 Minute - $150</li>
