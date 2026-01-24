@@ -2,25 +2,23 @@
   "name": "emerald-ease",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
-    "dev": "next dev",
-    "now-build": "next build",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "bootstrap": "5.3.7",
-    "next": "13.5.11",
-    "react": "18.3.1",
-    "react-bootstrap": "^2.4.0",
-    "react-bootstrap-icons": "^1.5.0",
-    "react-dom": "^18.2.0",
-    "sass": "^1.43.2",
-    "sharp": "^0.32.6"
+    "@nuxt/image": "^2.0.0",
+    "@nuxt/ui": "^4.4.0",
+    "nuxt": "^4.3.0",
+    "vue": "^3.5.13"
   },
   "devDependencies": {
-    "eslint": "7.32.0",
-    "eslint-config-next": "^13.1.6"
+    "@iconify-json/heroicons": "^1.2.1",
+    "@iconify-json/lucide": "^1.2.86",
+    "typescript": "^5.7.2"
   }
 }
