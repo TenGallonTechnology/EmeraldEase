@@ -132,7 +132,11 @@
             </UButton>
           </div>
           <div class="flex justify-end items-center">
-            <a href="https://www.tengallon.tech" target="_blank" class="w-16">
+            <a
+              href="https://www.tengallontechnology.com"
+              target="_blank"
+              class="w-16"
+            >
               <NuxtImg
                 class="bg-black rounded-full"
                 src="/TenGallonTech.png"

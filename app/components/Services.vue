@@ -161,12 +161,12 @@
           <template #bodywork-body>
             <div class="space-y-3 text-sm text-gray-700">
               <p>
-                This session will focus on specific issues or problem areas and a
-                primary goal. Minimal cream/gel is used. This is individually
+                This session will focus on specific issues or problem areas and
+                a primary goal. Minimal cream/gel is used. This is individually
                 tailored to each client and their desired outcome. The therapist
-                and client will work together to address the goals of the client.
-                There will be talking during this session, along with interaction
-                from the client.
+                and client will work together to address the goals of the
+                client. There will be talking during this session, along with
+                interaction from the client.
               </p>
 
               <p>
@@ -208,17 +208,17 @@
 
               <p>
                 This session is led by the therapist who will make suggestions
-                within the scope of practice to achieve the goals for the specific
-                outcome that is desired to help improve health and overall
-                wellness for the body's connective tissues and the muscular
-                system.
+                within the scope of practice to achieve the goals for the
+                specific outcome that is desired to help improve health and
+                overall wellness for the body's connective tissues and the
+                muscular system.
               </p>
 
               <p>
                 This is great for people who want to improve ROM or mobility,
-                specific pain issues, have carpal tunnel, TMJ, plantar fasciitis,
-                Golfer's/Tennis elbow, frozen shoulder, sciatic pain, or to
-                increase recovery and mobility for athletes.
+                specific pain issues, have carpal tunnel, TMJ, plantar
+                fasciitis, Golfer's/Tennis elbow, frozen shoulder, sciatic pain,
+                or to increase recovery and mobility for athletes.
               </p>
 
               <p>
@@ -229,17 +229,17 @@
               </p>
 
               <p>
-                The therapist may perform assessments to find out what structures
-                are causing your pain or your postural dysfunction and the session
-                will be focused around treating the muscles that are causing the
-                pain in your body.
+                The therapist may perform assessments to find out what
+                structures are causing your pain or your postural dysfunction
+                and the session will be focused around treating the muscles that
+                are causing the pain in your body.
               </p>
 
               <p>
-                These sessions may need to be more regular to begin with and your
-                therapist may help build a treatment plan that includes some
-                self-care exercises or stretching to be done at home to help
-                improve your progress.
+                These sessions may need to be more regular to begin with and
+                your therapist may help build a treatment plan that includes
+                some self-care exercises or stretching to be done at home to
+                help improve your progress.
               </p>
             </div>
           </template>
