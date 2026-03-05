@@ -246,6 +246,7 @@
         </UAccordion>
 
         <ul class="list-disc list-inside mt-3">
+          <li>75 Minute - $125</li>
           <li>90 Minute - $150</li>
         </ul>
 
@@ -363,7 +364,7 @@
         </div>
 
         <ul class="list-disc list-inside mt-3">
-          <li>Corporate - $100 per hour, per therapist + travel</li>
+          <li>Corporate - $90 per hour, per therapist + travel</li>
         </ul>
 
         <UButton
