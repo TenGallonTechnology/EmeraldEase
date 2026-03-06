@@ -247,7 +247,6 @@
 
         <ul class="list-disc list-inside mt-3">
           <li>75 Minute - $125</li>
-          <li>90 Minute - $150</li>
         </ul>
 
         <UButton
