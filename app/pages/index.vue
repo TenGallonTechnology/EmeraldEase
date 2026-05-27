@@ -5,9 +5,7 @@
       class="mt-5 mb-5 bg-emerald-100/70 border-emerald-200/70 backdrop-blur-sm"
     >
       <div class="text-center">
-        <p class="mb-2">
-          <strong>Business Hours:</strong> Monday-Friday, 8:30 am-6:00 pm
-        </p>
+        <p class="mb-2"><strong>Business Hours:</strong> Open Monday - Saturday</p>
         <p class="mb-2">Book Your Appointment Now!</p>
         <UButton
           to="https://www.vagaro.com/emeraldease/book-now"
