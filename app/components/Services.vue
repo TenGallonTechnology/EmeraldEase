@@ -106,43 +106,6 @@
         </UButton>
       </UCard>
 
-      <!-- Sticks and Stones Massage -->
-      <UCard>
-        <template #header>
-          <h5 class="text-center text-lg font-semibold">
-            Sticks and Stones Massage
-          </h5>
-        </template>
-
-        <UAccordion
-          :items="[
-            {
-              label: 'More Info',
-              icon: 'i-heroicons-information-circle',
-              content:
-                'Embrace the warmth this winter with our Sticks & Stones massage — a luxurious seasonal treatment that melts away tension and soothes the senses. Smooth, warm bamboo sticks glide across the body to stretch and release tight muscles, while warm stones deliver deep, comforting heat to melt stress from head to toe-- making it ideal for those who love the intensity of deep tissue work with an added element of comforting heat. This unique fusion of warmth and flow promotes circulation, eases sore muscles, and leaves you feeling balanced, renewed, and deeply relaxed. A perfect cozy escape for chilly days — Sticks & Stones is available for a limited time only during the colder months.',
-            },
-          ]"
-        />
-
-        <ul class="list-disc list-inside mt-3">
-          <li>60 Minute - $110</li>
-        </ul>
-
-        <UButton
-          to="https://www.vagaro.com/emeraldease/book-now"
-          external
-          target="_blank"
-          color="primary"
-          variant="ghost"
-          block
-          class="mt-3"
-          icon="i-heroicons-calendar"
-        >
-          Book Now
-        </UButton>
-      </UCard>
-
       <!-- Bodywork -->
       <UCard>
         <template #header>
