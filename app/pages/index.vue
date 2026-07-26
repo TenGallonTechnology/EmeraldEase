@@ -121,9 +121,9 @@
 useSeoMeta({
   title: "Emerald Ease",
   description:
-    "Andrea Craft, Licensed Massage Practitioner in Dublin, GA, specializes in relaxing and therapeutic massage modalities including Swedish, maternity, Myofascial Release, sports/orthopedic, hot stone, chair massage, and bodywork. Book your appointment today!",
+    "Andrea Craft, Licensed Massage Practitioner in Dublin, GA, specializes in relaxing and therapeutic massage modalities including Swedish, maternity, Myofascial Release, sports/orthopedic, hot stone, and chair massage. Book your appointment today!",
   ogTitle: "Emerald Ease",
   ogDescription:
-    "Andrea Craft, Licensed Massage Practitioner in Dublin, GA, specializes in relaxing and therapeutic massage modalities including Swedish, maternity, Myofascial Release, sports/orthopedic, hot stone, chair massage, and bodywork. Book your appointment today!",
+    "Andrea Craft, Licensed Massage Practitioner in Dublin, GA, specializes in relaxing and therapeutic massage modalities including Swedish, maternity, Myofascial Release, sports/orthopedic, hot stone, and chair massage. Book your appointment today!",
 });
 </script>

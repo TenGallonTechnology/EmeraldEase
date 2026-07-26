@@ -106,10 +106,12 @@
         </UButton>
       </UCard>
 
-      <!-- Bodywork -->
+      <!-- Clothed Therapeutic Massage -->
       <UCard>
         <template #header>
-          <h5 class="text-center text-lg font-semibold">Bodywork</h5>
+          <h5 class="text-center text-lg font-semibold">
+            Clothed Therapeutic Massage
+          </h5>
         </template>
 
         <UAccordion
@@ -117,98 +119,87 @@
             {
               label: 'More Info',
               icon: 'i-heroicons-information-circle',
-              slot: 'bodywork',
+              content:
+                'A fully clothed alternative to traditional massage that uses deep compressions, assisted stretching, and gentle joint movement instead of oils and gliding strokes. This session is designed to help reduce muscle tension, improve mobility, and leave you feeling relaxed and refreshed. It typically includes treatment for the entire body and can be focused on problem areas. Please wear comfortable clothing that is easy to move in; sports or workout attire is fine.',
             },
           ]"
-        >
-          <template #bodywork-body>
-            <div class="space-y-3 text-sm text-gray-700">
-              <p>
-                This session will focus on specific issues or problem areas and
-                a primary goal. Minimal cream/gel is used. This is individually
-                tailored to each client and their desired outcome. The therapist
-                and client will work together to address the goals of the
-                client. There will be talking during this session, along with
-                interaction from the client.
-              </p>
-
-              <p>
-                The goal is to improve a specific issue while targeting specific
-                muscle groups, rather than simply helping you to relax.
-              </p>
-
-              <p>
-                This session may involve a variety of techniques, passive,
-                active, or resistive stretching techniques,
-                <UButton
-                  color="primary"
-                  variant="link"
-                  class="p-0 inline font-semibold underline underline-offset-4 align-baseline"
-                  @click="showNrt = true"
-                >
-                  Neural Reset Therapy
-                </UButton>
-                ,
-                <UButton
-                  color="primary"
-                  variant="link"
-                  class="p-0 inline font-semibold underline underline-offset-4 align-baseline"
-                  @click="showCupping = true"
-                >
-                  Cupping
-                </UButton>
-                ,
-                <UButton
-                  color="primary"
-                  variant="link"
-                  class="p-0 inline font-semibold underline underline-offset-4 align-baseline"
-                  @click="showRst = true"
-                >
-                  Rossiter Stretch Technique
-                </UButton>
-                , and other manual massage techniques.
-              </p>
-
-              <p>
-                This session is led by the therapist who will make suggestions
-                within the scope of practice to achieve the goals for the
-                specific outcome that is desired to help improve health and
-                overall wellness for the body's connective tissues and the
-                muscular system.
-              </p>
-
-              <p>
-                This is great for people who want to improve ROM or mobility,
-                specific pain issues, have carpal tunnel, TMJ, plantar
-                fasciitis, Golfer's/Tennis elbow, frozen shoulder, sciatic pain,
-                or to increase recovery and mobility for athletes.
-              </p>
-
-              <p>
-                This style of bodywork holistically looks at the entire body,
-                with its focus being treating pain, structural dysfunctions,
-                improving injury rehabilitation, and helping eliminate acute or
-                chronic pain.
-              </p>
-
-              <p>
-                The therapist may perform assessments to find out what
-                structures are causing your pain or your postural dysfunction
-                and the session will be focused around treating the muscles that
-                are causing the pain in your body.
-              </p>
-
-              <p>
-                These sessions may need to be more regular to begin with and
-                your therapist may help build a treatment plan that includes
-                some self-care exercises or stretching to be done at home to
-                help improve your progress.
-              </p>
-            </div>
-          </template>
-        </UAccordion>
+        />
 
         <ul class="list-disc list-inside mt-3">
+          <li>30 Minute - $65</li>
+          <li>60 Minute - $100</li>
+          <li>90 Minute - $150</li>
+        </ul>
+
+        <UButton
+          to="https://www.vagaro.com/emeraldease/book-now"
+          external
+          target="_blank"
+          color="primary"
+          variant="ghost"
+          block
+          class="mt-3"
+          icon="i-heroicons-calendar"
+        >
+          Book Now
+        </UButton>
+      </UCard>
+
+      <!-- Pain Relief Session -->
+      <UCard>
+        <template #header>
+          <h5 class="text-center text-lg font-semibold">Pain Relief Session</h5>
+        </template>
+
+        <UAccordion
+          :items="[
+            {
+              label: 'More Info',
+              icon: 'i-heroicons-information-circle',
+              content:
+                'A focused, therapist-guided session for people experiencing pain or movement restrictions. Rather than providing a full-body massage, the appointment is dedicated to your primary concern using targeted hands-on techniques and movement-based approaches to help reduce discomfort and improve function. These interactive, goal-oriented sessions may include feedback or simple movements to guide treatment and monitor progress. Best for neck or back pain, shoulder or hip pain, headaches, sciatica, carpal tunnel, golfer’s or tennis elbow, limited mobility, and other specific areas of discomfort.',
+            },
+          ]"
+        />
+
+        <ul class="list-disc list-inside mt-3">
+          <li>30 Minute - $65</li>
+          <li>60 Minute - $100</li>
+        </ul>
+
+        <UButton
+          to="https://www.vagaro.com/emeraldease/book-now"
+          external
+          target="_blank"
+          color="primary"
+          variant="ghost"
+          block
+          class="mt-3"
+          icon="i-heroicons-calendar"
+        >
+          Book Now
+        </UButton>
+      </UCard>
+
+      <!-- Lymphatic Massage -->
+      <UCard>
+        <template #header>
+          <h5 class="text-center text-lg font-semibold">Lymphatic Massage</h5>
+        </template>
+
+        <UAccordion
+          :items="[
+            {
+              label: 'More Info',
+              icon: 'i-heroicons-information-circle',
+              content:
+                'A gentle, rhythmic massage that uses compressions, light sweeping motions, and skin brushing or stretching to encourage lymph flow toward the lymph node clusters in the neck, armpits, and groin. It is designed to create open pathways for fluid movement and is performed without oil or lotion. It may be used to treat lymphedema or reduce swelling after surgery.',
+            },
+          ]"
+        />
+
+        <ul class="list-disc list-inside mt-3">
+          <li>30 Minute - $65</li>
           <li>60 Minute - $100</li>
           <li>90 Minute - $150</li>
         </ul>
@@ -343,15 +334,5 @@
       </UCard>
     </div>
 
-    <!-- Modals -->
-    <RstModal v-model="showRst" />
-    <CuppingModal v-model="showCupping" />
-    <NrtModal v-model="showNrt" />
   </div>
 </template>
-
-<script setup lang="ts">
-const showRst = ref(false);
-const showNrt = ref(false);
-const showCupping = ref(false);
-</script>

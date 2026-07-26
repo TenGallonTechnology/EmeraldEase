@@ -12,7 +12,7 @@
           but can prevent its re-occurrence. Rossiter Fascial Stretching helps
           clients who have restricted or limited movement. By using the three
           dimensions of weight, lock, and movement, RST works anywhere the
-          technique is applied. This type of bodywork combines common connective
+          technique is applied. This approach combines common connective
           tissue and soft-tissue modalities with the uniquely powerful addition
           of active client participation in the stretching techniques. RST helps
           increase flexibility, range of motion, mobility, and reduces incidents

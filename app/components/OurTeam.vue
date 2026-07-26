@@ -19,7 +19,7 @@
       />
       <p class="text-sm mt-2">
         Emerald Ease is a locally owned business with licensed massage
-        therapists offering relaxing and therapeutic massages and bodywork. We
+        therapists offering relaxing and therapeutic massages. We
         offer many modality options such as Swedish, deep tissue, prenatal,
         aromatherapy, warm stones, couples, chair massage, Therapeutic, Cupping
         Therapy, and Rossiter Stretching.
