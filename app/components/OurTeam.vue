@@ -108,5 +108,11 @@ const teamMembers = [
     description:
       "Autumn has been a Licensed Massage Therapist over four years with experience in several different massage modalities. She enjoys walking, listening to music, and hanging out with her fur babies.",
   },
+  {
+    name: "Megan",
+    image: "/megan.jpg",
+    description:
+      "Megan has over 26 years experience as a LMT. She specializes in relaxing Swedish massage (NOT deep tissue), warm stones, and has extended training in pregnancy massage (pre-natal & peri-natal) for expectant/new mothers. If you just want to relax and recharge, book with Megan!",
+  },
 ];
 </script>
