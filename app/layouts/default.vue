@@ -115,7 +115,7 @@
       <UContainer>
         <div class="grid grid-cols-3 items-center gap-4 py-6">
           <div class="text-left">
-            <small>©Emerald Ease 2021</small>
+            <small>©Emerald Ease {{ currentYear }}</small>
           </div>
           <div class="text-center">
             <small class="hidden sm:block mb-2">Follow Us!</small>
@@ -154,6 +154,8 @@
 
 <script setup lang="ts">
 const isMenuOpen = ref(false);
+
+const currentYear = new Date().getFullYear();
 
 const route = useRoute();
 
