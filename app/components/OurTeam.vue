@@ -45,7 +45,7 @@
         class="rounded-lg overflow-hidden"
         arrows
         loop
-        :autoplay="{ delay: 2000 }"
+        :autoplay="!isBioOpen && { delay: 2000 }"
       >
         <div class="relative w-full h-146.25">
           <NuxtImg
@@ -57,9 +57,22 @@
           <div
             class="absolute bottom-0 left-0 right-0 bg-white/55 backdrop-blur-md rounded-b-lg p-3 text-center ring-1 ring-white/40"
           >
-            <h5 class="text-lg font-semibold text-gray-900 drop-shadow-sm">
-              {{ item.name }}
-            </h5>
+            <div class="flex items-center justify-center gap-2">
+              <h5 class="text-lg font-semibold text-gray-900 drop-shadow-sm">
+                {{ item.name }}
+              </h5>
+              <UButton
+                class="bg-white/90 text-gray-900 shadow-sm ring-1 ring-gray-900/10 backdrop-blur-sm hover:bg-white sm:hidden"
+                size="xs"
+                color="neutral"
+                variant="ghost"
+                icon="i-heroicons-information-circle"
+                :aria-label="`Read ${item.name}'s bio`"
+                @click="openBio(item)"
+              >
+                Bio
+              </UButton>
+            </div>
             <p class="text-sm mt-1 text-right hidden sm:block text-gray-800">
               {{ item.description }}
             </p>
@@ -68,10 +81,38 @@
       </UCarousel>
     </div>
   </div>
+
+  <UModal v-model:open="isBioOpen">
+    <template #content>
+      <UCard>
+        <template #header>
+          <h3 class="text-lg font-semibold">{{ activeMember?.name }}</h3>
+        </template>
+
+        <p class="text-sm text-gray-800">{{ activeMember?.description }}</p>
+
+        <UButton
+          class="mt-4"
+          block
+          color="primary"
+          variant="soft"
+          @click="isBioOpen = false"
+        >
+          Close
+        </UButton>
+      </UCard>
+    </template>
+  </UModal>
 </template>
 
 <script setup lang="ts">
-const teamMembers = [
+interface TeamMember {
+  name: string;
+  image: string;
+  description: string;
+}
+
+const teamMembers: TeamMember[] = [
   {
     name: "Andrea",
     image: "/andrea.jpg",
@@ -82,7 +123,7 @@ const teamMembers = [
     name: "Codi",
     image: "/codi.jpg",
     description:
-      "Codi is a LMT, CPT, and a Deputy in Laurens County. He offers therapeutic massages that include deep tissue, trigger point release, and myofascial release with the goal of combining relaxation, pain management, and recovery.",
+      "Codi's passion for massage therapy is providing personalized care that meets each client's individual needs. He approaches massage therapy from a biblical worldview, seeing it as a tool God has given us to promote healing and well-being. While his primary focus is helping clients manage pain and improve their quality of life, he also enjoys helping those dealing with stress and anxiety find time to relax, unwind, and recharge.",
   },
   {
     name: "Natalie",
@@ -115,4 +156,12 @@ const teamMembers = [
       "Megan has over 26 years experience as a LMT. She specializes in relaxing Swedish massage (NOT deep tissue), warm stones, and has extended training in pregnancy massage (pre-natal & peri-natal) for expectant/new mothers. If you just want to relax and recharge, book with Megan!",
   },
 ];
+
+const activeMember = ref<TeamMember | null>(null);
+const isBioOpen = ref(false);
+
+function openBio(member: TeamMember) {
+  activeMember.value = member;
+  isBioOpen.value = true;
+}
 </script>
