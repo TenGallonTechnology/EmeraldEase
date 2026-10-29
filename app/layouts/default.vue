@@ -115,7 +115,7 @@
       <UContainer>
         <div class="grid grid-cols-3 items-center gap-4 py-6">
           <div class="text-left">
-            <small>©Emerald Ease {{ currentYear }}</small>
+            <small class="whitespace-nowrap">©Emerald Ease&nbsp;{{ currentYear }}</small>
           </div>
           <div class="text-center">
             <small class="hidden sm:block mb-2">Follow Us!</small>
